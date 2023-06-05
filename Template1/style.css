@@ -1,0 +1,107 @@
+.table-responsive {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+}
+div#a,div#b{
+            margin-top: 24px;       
+            
+}
+
+div#plac {
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+            width:100%;
+        }
+
+@media screen and (max-width: 3000px) and (min-width: 300px) {
+
+            html,
+            body {
+                        width: 100%;
+                        height: 100%;
+                        margin: 0;
+                        padding: 0;
+                        overflow-x: hidden;
+            }
+}
+
+@media screen and (max-width: 1200px) {
+            .sidebar {
+                        display: none;
+            }
+
+            #main1 {
+                        width: 100%;
+            }
+
+            #sear{
+                display: none;
+            }
+
+            #symb{
+                display: none;
+            }
+}
+
+@media screen and (max-width: 1200px) {
+    .navbar-expand-md .navbar-toggler{
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 823px) {
+
+            #one,
+            #two,
+            #four,
+            #five,
+            #seven
+            #five,
+            #six {
+                        float: none;
+                        width: 100%;
+            }
+            
+
+            #three {
+                        float: none;
+            }
+
+            #a,#b,#c,#d{
+                margin-bottom: 5% !important;
+            }
+
+            #frien{
+                margin-top: 7% !important;
+                margin-bottom: 18% !important;
+            }
+            
+
+}
+
+@media screen and (max-width: 576px) {
+    #p,#q,#r,#s{
+        height: 110% !important;
+    }
+    
+    #frien{
+        margin-bottom:55% !important;
+    }
+    
+}
+
+@media screen and (max-width: 413px) {
+    #frien{
+        margin-top: 12% !important;
+        margin-bottom: 90% !important;
+    }
+}
+
+
+@media screen and (max-width: 566px) {
+            #tabl {
+                        display: none !important;
+            }
+}
